@@ -44,7 +44,7 @@ $stmt->bind_param("ssssss", $name, $email, $phone, $membership, $branch, $messag
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book a Free Trail</title>
+    <title>Book a Membership</title>
     <link rel="stylesheet" href="Book a membership.css">
 </head>
 <body>

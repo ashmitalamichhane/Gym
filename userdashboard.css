@@ -1,0 +1,68 @@
+/* Reset default styles */
+* {
+    margin: 200;
+    padding: 20;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center; /* Centering horizontally */
+    align-items: center; /* Centering vertically */
+    height: 100vh; /* Ensure full viewport height */
+}
+
+.container {
+    display: flex;
+}
+
+.navigation {
+    background-color: #333;
+    color: #fff;
+    width: 800px;
+    height: 800px;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation ul li {
+    padding: 15px;
+    border-bottom: 1px solid #555;
+}
+
+.navigation ul li:last-child {
+    border-bottom: none;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul li a .icon {
+    margin-right: 10px;
+}
+
+.navigation ul li a:hover {
+    background-color: #555;
+}
+
+.navigation ul li a:hover .icon {
+    color: #ff0;
+}
+
+.title {
+    font-size: 16px;
+}
+
+/* Custom styles for ion-icons */
+ion-icon {
+    font-size: 20px;
+}

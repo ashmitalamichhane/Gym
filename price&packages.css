@@ -14,10 +14,6 @@ body {
     background-size: cover;
     background-position: center;
 }
-.body .h2
-{
-    color:#fff;
-}
 header {
     position: fixed;
     top: 0;
@@ -63,42 +59,35 @@ header {
     transform-origin: left;
     transform: scaleX(1);
 }
-
-.header{
-    text-align: center;
-    background-color: rgb(243, 78, 2);
- }
- p{
-    width: 200%;
- }
-
- table {
-    width: 100%;
-    border-collapse: collapse;
+.table-container {
     margin-top: 20px;
-    color: #fff;
-    background-color: black;
 }
 
-table th, table td {
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+    background-color:white;
+}
+
+.table-container table th,
+.table-container table td {
     padding: 10px;
     text-align: left;
     border-bottom: 1px solid #ddd;
-    
 }
 
-table th {
-
-    color: #fff;
+.table-container table th {
+    color: black;
 }
 
-table th:first-child, table td:first-child {
-    border-left:1px;
-    color: #fff;
-     
+.table-container table th:first-child,
+.table-container table td:first-child {
+    border-left: 1px;
+    color: black;
 }
 
-table th:last-child, table td:last-child {
+.table-container table th:last-child,
+.table-container table td:last-child {
     border-right: 1px;
-    color: #fff;
-}
+    color: black;
